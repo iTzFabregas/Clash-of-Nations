@@ -19,7 +19,3 @@ To setup the development of the server locally, follow these steps:
 Remember to use [PEP8](https://peps.python.org/pep-0008/) for formatting python code. This can be made easiear by using autopep8 and a configured ctrl+f in VSCode.
 
 To develop the database schema and add data during runtime, use `docker exec -it postgres psql -U $POSTGRES_USER`, where $POSTGRES\_USER is the user as defined in the `.env` file, to start a SQL command line prompt.
-
-## Made Fully by
-- [Lucas Eduardo Gulka Pulcinelli](https://github.com/lucasgpulcinelli/)
-- 
